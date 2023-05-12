@@ -1,0 +1,58 @@
+body{
+
+    margin:0;
+    padding:0;
+ 
+    /* color de fondo de la pagina */
+    background-color: rgb(166, 236, 210);
+    background:url(marron-beige-crema-claro-lujo-abstracto-como-fondo-modelo-textura-seda-algodon_1258-71591.avif);
+    /*adapta la imagen al contendedor */
+    background-size:cover;
+ 
+    
+ }
+ 
+ header{
+     background-filter: blur(2px);;
+ }
+ 
+ 
+ .h2styles{
+     color: darkslateblue;
+ 
+ }
+ 
+ #h1styles{
+      color: darkslateblue;
+ 
+ }
+ 
+ .section1 #h2styles{
+    background-color: rgb(97, 23, 23);
+    background-position: 10px;
+    background - filter: blur(3px) ;
+ 
+ }
+ 
+ header{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+ }
+ 
+ header.h2styles{
+    margin-left: 30px;
+ 
+
+ }
+ 
+ ul{
+    list-style: none;
+    display:flex ;
+    justify-content: center;
+    gap: 26px;
+    margin-top: 28px;
+ }
+ 
+ ul li a{
+    color: burlywood;
+ } 
